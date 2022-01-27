@@ -1,0 +1,13 @@
+/* Nesting o anidamientio*/
+
+header{
+    background-color: black;
+    nav{
+        padding: 20px;
+        ul{
+            li{
+                list-style-type: circle;
+            }
+        }
+    }
+}
