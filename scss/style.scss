@@ -1,13 +1,22 @@
-/* Nesting o anidamientio*/
+/* Importar componentes para compilar en el principal */
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'componentes/seccionIndex';
+@import 'componentes/integrantes';
 
-header{
-    background-color: black;
-    nav{
-        padding: 20px;
-        ul{
-            li{
-                list-style-type: circle;
-            }
-        }
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

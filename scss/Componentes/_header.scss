@@ -1,0 +1,41 @@
+
+
+body{
+    background-color:gray;
+}
+
+.navbar{
+    .container-fluid{
+        .navbar-brand{
+            .imagen-logo{
+                width: 120%;
+                height: 70px;
+            }
+        }
+        .navbar-nav{
+            margin-left: auto;           
+            .nav-link{
+                color: white;
+                text-transform: uppercase;
+                &:hover{
+                    transition: 1.5s;    
+                    transform: scale(1.1);    
+                    background-color:rgb(87, 84, 84);
+                    
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
