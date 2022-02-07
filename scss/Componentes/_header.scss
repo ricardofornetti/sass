@@ -1,9 +1,5 @@
 
 
-body{
-    background-color:gray;
-}
-
 .navbar{
     .container-fluid{
         .navbar-brand{
@@ -17,6 +13,7 @@ body{
             .nav-link{
                 color: white;
                 text-transform: uppercase;
+                margin: 15px;
                 &:hover{
                     transition: 1.5s;    
                     transform: scale(1.1);    
