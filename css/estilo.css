@@ -1,14 +1,19 @@
 /* Importar componentes para compilar en el principal */
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&family=Work+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@200&family=Lobster&family=Montserrat:wght@100&family=Old+Standard+TT:ital@1&display=swap");
 .navbar .container-fluid .navbar-brand .imagen-logo {
   width: 120%;
   height: 70px;
@@ -27,118 +32,207 @@
   background-color: #575454;
 }
 
-/* INICIO FOOTER*/
-footer div h3 {
-  text-align: left;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 15px;
-  color: black;
-  margin-top: 50px;
-  margin-left: 10px;
-}
-
 footer {
   background-color: #202020;
   color: white;
   width: 100%;
 }
-
-.contenedor_todo_footer {
+footer .contenedor_todo_footer {
   width: 100%;
   max-width: 1200px;
   margin: auto;
   padding: 10px;
 }
-
-.contenedor {
+footer .contenedor_todo_footer .contenedor {
   display: flex;
   justify-content: space-between;
 }
-
-.columna_1 {
+footer .contenedor_todo_footer .contenedor .columna_1 {
   max-width: 400px;
 }
-
-.columna_1 h3 {
-  font-size: 20px;
-  color: white;
+footer .contenedor_todo_footer .contenedor .columna_1 h3 {
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 10px;
 }
-
-.columna_1 p {
-  font-size: 12px;
+footer .contenedor_todo_footer .contenedor .columna_1 p {
+  font-size: 14px;
   color: #C7C7C7;
   margin-top: 20px;
 }
-
-.columna_2 {
+footer .contenedor_todo_footer .contenedor .columna_2 {
   max-width: 400px;
 }
-
-.columna_2 h3 {
+footer .contenedor_todo_footer .contenedor .columna_2 h3 {
   font-size: 18px;
   color: white;
+  margin-top: 40px;
 }
-
-.columna_2 .filas {
+footer .contenedor_todo_footer .contenedor .columna_2 .filas {
   margin-top: 20px;
   display: flex;
 }
-
-.filas img {
+footer .contenedor_todo_footer .contenedor .columna_2 .filas img {
   width: 20%;
   height: 35px;
 }
-
-.filas label {
+footer .contenedor_todo_footer .contenedor .columna_2 .filas label {
   margin-top: 10px;
   margin-left: 10px;
   color: #C7C7C7;
 }
-
-.columna_3 {
+footer .contenedor_todo_footer .contenedor .columna_3 {
   max-width: 400px;
 }
-
-.columna_3 h3 {
+footer .contenedor_todo_footer .contenedor .columna_3 h3 {
   font-size: 18px;
   color: white;
+  margin-top: 40px;
 }
-
-.row1 {
+footer .contenedor_todo_footer .contenedor .columna_3 .row1 {
   margin-top: 20px;
   display: flex;
 }
-
-.row1 img {
+footer .contenedor_todo_footer .contenedor .columna_3 .row1 img {
   width: 15%;
   height: 35px;
 }
-
-.row1 label {
+footer .contenedor_todo_footer .contenedor .columna_3 .row1 label {
   margin-top: 10px;
   margin-left: 10px;
   color: #C7C7C7;
 }
-
-.contenedor_footer {
+footer .contenedor_todo_footer .contenedor_footer {
   color: white;
   display: flex;
-  padding: 30px;
   justify-content: space-between;
 }
-
-.copyright {
+footer .contenedor_todo_footer .contenedor_footer .copyright {
   color: #C7C7C7;
 }
-
-.copyright a {
+footer .contenedor_todo_footer .contenedor_footer .informacion a {
   text-decoration: none;
   color: white;
 }
 
-.informacion a {
-  text-decoration: none;
-  color: white;
+/* INICIO FOOTER*/
+/*
+footer div h3{
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    color:black;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+footer{
+    background-color: #202020;
+    color: white;    
+    width: 100%;       
+}
+
+.contenedor_todo_footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.columna_1{
+    max-width: 400px;
+}
+
+.columna_1 h3{
+    font-size: 20px;
+    color: white;
+}
+
+.columna_1 p{
+    font-size: 12px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.columna_2{
+    max-width: 400px;
+}
+
+.columna_2 h3{
+    font-size: 18px;
+    color: white;
+}
+
+.columna_2 .filas{
+    margin-top: 20px;
+    display: flex;
+}
+
+.filas img{
+    width: 20%;
+    height: 35px;
+}
+
+.filas label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7;
+}
+
+.columna_3{
+    max-width: 400px;
+}
+
+.columna_3 h3{
+    font-size: 18px;
+    color: white;
+}
+
+.row1{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row1 img{
+    width: 15%;
+    height: 35px;
+}
+
+.row1 label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7; 
+}
+
+.contenedor_footer{
+
+    color: white;
+    display: flex;
+    padding: 30px;
+    justify-content:space-between;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.informacion a{
+    text-decoration: none;
+    color: white;
 }
 
 /* FIN FOOTER*/
@@ -150,10 +244,8 @@ footer {
   width: 100%;
 }
 .seccion-principal p {
-  color: black;
   text-align: justify;
-  font-family: "Roboto", sans-serif;
-  /*font-family:Arial, Helvetica, sans-serif;*/
+  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
   line-height: 20px;
@@ -198,7 +290,7 @@ footer {
   grid-area: 1/2/2/3;
 }
 .grid-cantantes .div2 .article {
-  font-family: "Lobster", cursive;
+  font-family: "Work Sans", sans-serif;
   margin-top: 30px;
   margin-right: 30px;
   margin-bottom: 10px;
@@ -364,6 +456,7 @@ footer {
   font-size: 28px;
 }
 .grid-videos .div1 .articulo1 {
+  font-family: "Work Sans", sans-serif;
   margin-top: 5px;
   margin-right: 40px;
   margin-bottom: 10px;
